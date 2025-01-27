@@ -194,7 +194,9 @@ border-radius: 30%;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 30px;
-    background-color: rgb(70, 69, 69);
+    background-color: rgb(48, 47, 47);
+    color: rgb(184, 181, 181);
+    line-height: 7px;
 }
 .sub2{
     display: flex;
@@ -219,4 +221,56 @@ border-radius: 30%;
     padding: 4px;
     width: 40px;
 
+}
+#email{
+    border:1px solid white ;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+#phone{
+    border:1px solid rgb(70, 69, 69);
+    border-radius: 50%;
+    background-color:rgb(70, 69, 69);
+    padding: 5px;
+    color: black;
+}
+#whatsapp{
+    border:1px solid white ;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+#btn{
+    padding: 0px;
+    border: 1px solid rgb(70, 69, 69);
+    background-color: pink;
+    
+}
+#sub{
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.subsribe{
+    display: flex;
+    flex-direction: row
+
+}
+.ending{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: black;
+    color:rgb(184, 181, 181) ;
+    padding: 0px 20px;
+
+    a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
 }
